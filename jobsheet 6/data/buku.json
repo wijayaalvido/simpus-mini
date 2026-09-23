@@ -1,0 +1,16 @@
+[
+  {
+    "judul": "Laskar Pelangi",
+    "pengarang": "Andrea Hirata",
+    "tahun": 2005,
+    "stok": 4,
+    "kategori": "Fiksi"
+  },
+  {
+    "judul": "Bumi Manusia",
+    "pengarang": "Pramoedya Ananta Toer",
+    "tahun": 1980,
+    "stok": 2,
+    "kategori": "Sejarah"
+  }
+]
