@@ -21,9 +21,6 @@ if ($tanggal === '') {
 if ($email !== '' && !filter_var($email, FILTER_VALIDATE_EMAIL)) {
     $errors[] = "Format email tidak valid.";
 }
-if ($no_hp !== '' && !preg_match('/^[0-9]{9,15}$/', $no_hp)) {
-    $errors[] = "No. HP hanya boleh berisi angka (9-15 digit).";
-}
 
 if (!empty($errors)) {
     $_SESSION['flash'] = ['type' => 'error', 'pesan' => implode(' ', $errors)];
